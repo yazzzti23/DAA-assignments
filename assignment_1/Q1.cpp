@@ -27,6 +27,6 @@ int binarySearch(vector<int> &arr, int key){
 
 }
 int main(){
-    vector<int> arr = {1,2,3,4,5,6};
+    vector<int> arr = {2,5,8,12,16,23,38,56,72,91};
     cout<<binarySearch(arr,6);
 }

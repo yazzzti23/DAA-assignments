@@ -40,7 +40,7 @@ void MergeSort(vector<int> &arr,int l, int h){
 }
 
 int main(){
-    vector<int> array = {23,45,32,1,2,10};
+    vector<int> array1 = {12,11,13,5,6,7};
     int n = array.size();
     int low = 0;
     int high = n-1;
