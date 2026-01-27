@@ -41,12 +41,12 @@ void MergeSort(vector<int> &arr,int l, int h){
 
 int main(){
     vector<int> array1 = {12,11,13,5,6,7};
-    int n = array.size();
+    int n = array1.size();
     int low = 0;
     int high = n-1;
 
-    MergeSort(array,low,high);
-    for(auto it:array){
+    MergeSort(array1,low,high);
+    for(auto it:array1){
         cout<<it<<" ";
     }
 }
